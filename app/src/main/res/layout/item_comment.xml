@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/commentText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:text="아니 근데 그게 맞아?"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="end">
+
+        <TextView
+            android:layout_gravity="start"
+            android:id="@+id/dateText"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="작성 시간"
+            android:textColor="#595959"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:layout_gravity="start"
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="/"
+            android:textColor="#595959"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:layout_gravity="start"
+            android:id="@+id/nameText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="닉네임(익명)_회색"
+            android:textColor="#595959"
+            tools:ignore="RtlCompat" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

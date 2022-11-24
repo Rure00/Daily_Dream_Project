@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/pop_up1"
+        android:title="중학생"/>
+    <item
+        android:id="@+id/pop_up2"
+        android:title="고등학생"/>
+    <item
+        android:id="@+id/pop_up3"
+        android:title="대학생"/>
+    <item
+        android:id="@+id/pop_up4"
+        android:title="직장인"/>
+    <item
+        android:id="@+id/pop_up5"
+        android:title="취업 준비생"/>
+    <item
+        android:id="@+id/pop_up6"
+        android:title="기타"/>
+</menu>

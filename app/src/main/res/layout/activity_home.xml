@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="Daliy_Dream"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <Button
+        android:id="@+id/LoginBtn"
+        android:layout_width="350dp"
+        android:layout_height="125dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#F1A22C"
+        android:text="로그인"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+        <!--TODO: drawable/kgu 크기 조절하기
+        android:drawableStart="@drawable/kgu"-->
+
+    <!--로그인 했을때 버튼-->
+
+
+    <FrameLayout
+        android:id="@+id/afterLoginLayout"
+        android:layout_width="340dp"
+        android:layout_height="125dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="75dp"
+        android:background="#F1A22C">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/userNameText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="ooo님 환영합니다."
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+
+            <Button
+                android:id="@+id/modifyProfileBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="정보 수정"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_margin="15dp"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/volunteerBtn"
+        android:layout_width="350dp"
+        android:layout_height="125dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="210dp"
+        android:backgroundTint="#58BD5D"
+        android:text="오늘의 봉사활동"
+        android:gravity="start"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:id="@+id/deptInfoBtn"
+        android:layout_marginTop="360dp"
+        android:layout_width="190dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/custom_button"
+        android:text="학과 정보 게시판" />
+
+    <Button
+        android:id="@+id/AptitudeInfoBtn"
+        android:layout_width="190dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginEnd="210dp"
+        android:background="@drawable/custom_button"
+        android:text="진로 직업 정보 게시판"
+        android:layout_marginTop="360dp"/>
+
+    <Button
+        android:id="@+id/qnaBtn"
+        android:layout_width="190dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="505dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/custom_button"
+        android:text="Q&amp;A 게시판"
+        />
+
+    <Button
+        android:id="@+id/freeBtn"
+        android:layout_width="190dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginEnd="210dp"
+        android:background="@drawable/custom_button"
+        android:text="자유게시판"
+        android:layout_marginTop="505dp"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_marginTop="350dp"
+        android:background="#03A9F4">
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:background="@drawable/custom_home_shape"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitXY" />
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:background="@drawable/clock2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="250dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="350dp"
+        android:background="#03A9F4"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="56dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="336dp"
+                android:layout_height="120dp"
+                android:background="@drawable/custom_button"
+                android:orientation="vertical">
+
+                <TextView
+                    android:paddingLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="진로 적성 게시판"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="진로 적성 검사로 나에게 어떤 직업이 어울리는지 알아보자!"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="17sp"/>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="336dp"
+                android:layout_height="238dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="#B5B5B5">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="  워크넷"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="100dp"
+                    android:gravity="center"
+                    android:text="소요시간 20~90분"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+                <Button
+                    android:background="@drawable/custom_star_button"
+                    android:layout_width="86dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="240dp"
+                    android:gravity="center"
+                    android:text="즐겨찾기"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+                <FrameLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="210dp"
+                    android:layout_height="158dp"
+                    android:layout_marginTop="70dp"
+                    android:background="@color/white"
+                    >
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" - 직업적성능력의 측정"/>
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" - 적성 요인 별 해석"/>
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:layout_marginTop="85dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" - 추천 직업"/>
+                </FrameLayout>
+
+                <ImageButton
+                    android:id="@+id/aptitude_button1"
+                    android:layout_width="100dp"
+                    android:layout_height="91dp"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginTop="100dp"
+                    app:srcCompat="@drawable/work" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="336dp"
+                android:layout_height="238dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="#B5B5B5">
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="  커리어넷"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="100dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="소요시간 20~30분"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+                <Button
+                    android:background="@drawable/custom_star_button"
+                    android:layout_width="86dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="240dp"
+                    android:gravity="center"
+                    android:text="즐겨찾기"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+                <FrameLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="210dp"
+                    android:layout_height="158dp"
+                    android:layout_marginTop="70dp"
+                    android:background="@color/white"
+                    >
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" - 직업흥미유형 측정"/>
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" - 흥미유형 별 관련 직업 분석"/>
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:layout_marginTop="85dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" - 추천 직업"/>
+                </FrameLayout>
+                <ImageButton
+                    android:backgroundTint="#B8BEDD"
+                    android:id="@+id/aptitude_button2"
+                    android:layout_width="130dp"
+                    android:layout_height="96dp"
+                    android:layout_marginLeft="215dp"
+                    android:layout_marginTop="100dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/careerent" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="336dp"
+                android:layout_height="238dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="#B5B5B5">
+
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="30dp"
+                    android:text="다중지능검사"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="100dp"
+                    android:gravity="center"
+                    android:text="소요시간 10~15분"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+                <Button
+                    android:background="@drawable/custom_star_button"
+                    android:layout_width="86dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="240dp"
+                    android:gravity="center"
+                    android:text="즐겨찾기"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+                <FrameLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="210dp"
+                    android:layout_height="158dp"
+                    android:layout_marginTop="70dp"
+                    android:background="@color/white"
+                    >
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" - 8가지 다중지능의 강약을 검사"/>
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" - 다중지능 목록 별 관련 직업 분석"/>
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:layout_marginTop="85dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" - 추천 직업"/>
+                </FrameLayout>
+                <ImageButton
+                    android:backgroundTint="#B8BEDD"
+                    android:id="@+id/aptitude_button3"
+                    android:layout_width="130dp"
+                    android:layout_height="96dp"
+                    android:layout_marginLeft="215dp"
+                    android:layout_marginTop="100dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/jijiji" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_aptitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="안드로이드 앱"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+    </androidx.appcompat.widget.Toolbar>
+
+</FrameLayout>
